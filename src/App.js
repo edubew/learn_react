@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Web from './components/Web';
+import Web from './components/Web.js';
 
 export class App extends Component {
   render() {
