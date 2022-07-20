@@ -46,3 +46,24 @@ body {
   border-radius: 8px;
   background-color: rgb(11, 11, 96);
 }
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container h2 {
+  color: #fff;
+  width: 30%;
+  text-align: start;
+  margin: 10px 0;
+}
+
+.about-container p {
+  width: 30%;
+  color: #fff;
+  line-height: 24px;
+  font-size: 18px;
+}
