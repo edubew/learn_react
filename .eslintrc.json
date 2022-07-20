@@ -31,6 +31,8 @@
     ],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
+    "import/no-named-as-default": "off",
+    "react/prefer-stateless-function": "off",
     "no-shadow": "off"
   },
   "ignorePatterns": [
