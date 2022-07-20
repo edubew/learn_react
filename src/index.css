@@ -67,3 +67,25 @@ body {
   line-height: 24px;
   font-size: 18px;
 }
+
+.interests-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.interests-container h2 {
+  color: #fff;
+  width: 30%;
+  text-align: start;
+  margin: 10px 0;
+}
+
+.interests-container p {
+  width: 30%;
+  color: #fff;
+  line-height: 24px;
+  font-size: 18px;
+}
