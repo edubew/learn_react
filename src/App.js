@@ -6,7 +6,7 @@ import Main from './components/Main';
 export class App extends Component {
   render() {
     return (
-      <div>
+      <div className="main-container">
         <Navbar />
         <Main />
       </div>
