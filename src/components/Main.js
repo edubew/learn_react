@@ -1,17 +1,9 @@
 import React, { Component } from 'react';
 
-export class Web extends Component {
+export class Main extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar">
-          <a className="navbar-brand" href="logo.html">logo</a>
-          <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="home.html">Home</a>
-            <a className="nav-link" href="home.htm">Features</a>
-            <a className="nav-link" href="home.html">Pricing</a>
-          </div>
-        </nav>
         <h2>ReactFacts</h2>
         <h2>React Course - Project 1</h2>
         <h1>Fun facts about React</h1>
@@ -27,4 +19,4 @@ export class Web extends Component {
   }
 }
 
-export default Web;
+export default Main;
