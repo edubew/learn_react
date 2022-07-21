@@ -10,28 +10,23 @@ body {
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 footer img {
   width: 50px;
 }
 
-.info img {
-  width: 30%;
-}
-
 .info h1 {
   padding: 10px;
   color: beige;
+  text-align: center;
 }
 
 .buttons-container {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 20px;
-  margin: 10px 0;
+  gap: 10px;
+  margin: 5% 20%;
 }
 
 .info h2 {
@@ -58,49 +53,48 @@ footer a {
 .about-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .about-container h2 {
   color: #fff;
-  width: 30%;
   text-align: start;
-  margin: 10px 0;
+  margin: 0 10%;
 }
 
 .about-container p {
-  width: 30%;
   color: #fff;
-  line-height: 24px;
+  text-align: start;
+  margin: 3% 10%;
+  line-height: 28px;
   font-size: 18px;
 }
 
 .interests-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 15px 0;
 }
 
 .interests-container h2 {
   color: #fff;
-  width: 30%;
   text-align: start;
-  margin: 10px 0;
+  margin: 1% 10%;
 }
 
 .interests-container p {
-  width: 30%;
   color: #fff;
-  line-height: 24px;
+  line-height: 28px;
   font-size: 18px;
+  margin: 0 10%;
 }
 
 footer {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(19, 14, 56, 0.6);
+  margin: 4% 20%;
+}
+
+.main-container {
+  margin: 5% 33%;
+  height: 100%;
+  background-color: rgb(3, 1, 9);
+  border-radius: 20px;
 }
