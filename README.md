@@ -9,6 +9,10 @@ In this project I used the react components to develop abd style a personal busi
 - CSS
 - React
 
+
+## Live Demo
+![Screenshot](images/business-card.PNG)
+
 ## Available Scripts
 
 In the project directory, you can run:
