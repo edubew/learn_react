@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Info from './components/Info';
 import About from './components/About';
 import Interests from './components/Interests';
+import Footer from './components/Footer';
 
 export class App extends Component {
   render() {
@@ -11,6 +12,7 @@ export class App extends Component {
         <Info />
         <About />
         <Interests />
+        <Footer />
       </div>
     );
   }

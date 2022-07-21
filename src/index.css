@@ -15,7 +15,7 @@ body {
 }
 
 .info img {
-  width: 35%;
+  width: 30%;
 }
 
 .info h1 {
@@ -88,4 +88,19 @@ body {
   color: #fff;
   line-height: 24px;
   font-size: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(19, 14, 56, 0.6);
+}
+
+footer a {
+  padding: 8px;
+}
+
+footer img {
+  width: 50px;
 }
