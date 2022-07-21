@@ -14,6 +14,10 @@ body {
   align-items: center;
 }
 
+footer img {
+  width: 50px;
+}
+
 .info img {
   width: 30%;
 }
@@ -36,6 +40,10 @@ body {
   font-weight: 200;
   font-size: 22px;
   text-align: center;
+}
+
+footer a {
+  padding: 8px;
 }
 
 .info a {
@@ -95,12 +103,4 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: rgba(19, 14, 56, 0.6);
-}
-
-footer a {
-  padding: 8px;
-}
-
-footer img {
-  width: 50px;
 }
