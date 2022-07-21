@@ -10,7 +10,7 @@ In this project I used the react components to develop abd style a personal busi
 - React
 
 
-## Live Demo
+## Screenshot
 ![Screenshot](src/images/business-card.PNG)
 
 ## Available Scripts
