@@ -11,7 +11,7 @@ In this project I used the react components to develop abd style a personal busi
 
 
 ## Live Demo
-![Screenshot](images/business-card.PNG)
+![Screenshot](src/images/business-card.PNG)
 
 ## Available Scripts
 
