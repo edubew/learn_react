@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Digital Business Card
+> Accoding to wikipedia, "A Business card is a card bearing business information about a company or   individual. They are shared during formal introductions as a convenience"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project I used the react components to develop abd style a personal business card that contains a profile image, name, job specialization, a description, interests and a footer.
+
+
+## Built with
+- Html
+- CSS
+- React
 
 ## Available Scripts
 
@@ -39,32 +46,44 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Prerequisites
+    - Github account
+    - Code editor
+    - Git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ## Setup
+   - git init
+   - git clone https://github.com/edubew/learn_react.git
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 **Winfred Edube**
 
-### Making a Progressive Web App
+- GitHub: @edubew
+- Twitter: @edube_winne
+- LinkedIn: [LinkedIn](https://linkedin.com/in/winfred-edube-9820a422a/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing
 
-### Deployment
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feel free to check the [issues page](https://github.com/edubew/learn_react/issues).
 
-### `npm run build` fails to minify
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- A big thank you to freecode camp for giving detailed knowledge about react components and JSX
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
