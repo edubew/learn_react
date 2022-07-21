@@ -1,13 +1,35 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 nav {
-  box-shadow: 2px 4px rgb(219, 208, 208);
+  box-shadow: 1px 2px rgb(219, 208, 208);
 }
 
 nav img {
   max-width: 100px;
   padding: 20px 36px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.hero-container img {
+ max-width: 400px;
+ align-self: center;
+}
+
+.hero-container p {
+  width: 250px;
+  line-height: 24px;
 }
