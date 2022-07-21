@@ -1,88 +1,100 @@
-body {
+* {
   margin: 0;
-  font-family:
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(156, 102, 102, 0.4);
+  padding: 0;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+body {
+  background-color: rgb(13, 13, 30);
 }
 
-.navbar {
+.info {
   display: flex;
-  justify-content: space-between;
-  padding: 15px;
-  background-color: #601005;
+  flex-direction: column;
 }
 
-a {
+footer img {
+  width: 50px;
+}
+
+.info h1 {
+  padding: 10px;
+  color: beige;
+  text-align: center;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin: 5% 20%;
+}
+
+.info h2 {
+  color: rgb(195, 133, 17);
+  font-style: oblique;
+  font-weight: 200;
+  font-size: 22px;
+  text-align: center;
+}
+
+footer a {
+  padding: 8px;
+}
+
+.info a {
   text-decoration: none;
   color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(11, 11, 96);
 }
 
-.navbar-brand {
-  font-size: 24px;
-  font-style: oblique;
-  font-weight: 600;
-}
-
-.navbar-nav {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 25px;
-  margin-right: 5%;
-}
-
-.nav-link {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.heading {
+.about-container {
   display: flex;
-  justify-content: space-between;
-  padding: 0 12px;
-  background-color: #e6d3d2;
+  flex-direction: column;
 }
 
-.logo {
-  width: 30px;
-  border-radius: 30px;
+.about-container h2 {
+  color: #fff;
+  text-align: start;
+  margin: 0 10%;
 }
 
-.main-body {
-  padding: 57px 27px;
+.about-container p {
+  color: #fff;
+  text-align: start;
+  margin: 3% 10%;
+  line-height: 28px;
+  font-size: 18px;
 }
 
-.main-body h1 {
-  margin: 0;
-  font-size: 39px;
-  letter-spacing: -0.05em;
+.interests-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.facts {
-  line-height: 34px;
-  font-size: 1.4rem;
+.interests-container h2 {
+  color: #fff;
+  text-align: start;
+  margin: 1% 10%;
 }
 
-.facts li::marker {
-  font-size: 1.5rem;
-  color: #601005;
+.interests-container p {
+  color: #fff;
+  line-height: 28px;
+  font-size: 18px;
+  margin: 0 10%;
+}
+
+footer {
+  display: flex;
+  margin: 4% 20%;
+}
+
+.main-container {
+  margin: 5% 33%;
+  height: 100%;
+  background-color: rgb(3, 1, 9);
+  border-radius: 20px;
 }
